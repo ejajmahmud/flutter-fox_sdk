@@ -1,0 +1,25 @@
+name: fox_sdk_example
+description: Example app for fox_sdk.
+publish_to: none
+
+platforms:
+  linux:
+  macos:
+  windows:
+
+environment:
+  sdk: ^3.11.0
+  flutter: ">=3.40.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fox_sdk:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
